@@ -91,4 +91,4 @@ def logout():
     return redirect(url_for('index'))
 
 
-app.run(debug=True)
+app.run(debug=True)  # Inicia a aplicação
