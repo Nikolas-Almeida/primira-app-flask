@@ -15,7 +15,9 @@ class Jogo:
 jogo1 = Jogo('Super Mario', 'Ação', 'SNES')
 jogo2 = Jogo('Pokemon Gold', 'RPG', 'GBA')
 jogo3 = Jogo('Grand Theft Auto SA', 'Ação', 'Multiplataforma')
-lista = [jogo1, jogo2, jogo3]
+jogo4 = Jogo('Grand Theft Auto VI', 'Ação', 'Multiplataforma')
+lista = [jogo1, jogo2, jogo3, jogo4]
+
 
 
 class Usuario:
@@ -27,8 +29,8 @@ class Usuario:
 
 # Criando os usuários
 usuario1 = Usuario('luan', 'Luan Marques', '1234')
-usuario2 = Usuario('Nico', 'Nico Steppat', '7a1')
-usuario3 = Usuario('flavio', 'flavio Almeida', 'javascript')
+usuario2 = Usuario('Nik', 'Nikolas de Almeida', '123456')
+usuario3 = Usuario('miguel', 'Miguel Almeida', '123')
 usuarios = {usuario1.id: usuario1,
             usuario2.id: usuario2,
             usuario3.id: usuario3}
