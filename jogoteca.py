@@ -15,7 +15,7 @@ class Jogo:
 jogo1 = Jogo('Super Mario', 'Ação', 'SNES')
 jogo2 = Jogo('Pokemon Gold', 'RPG', 'GBA')
 jogo3 = Jogo('Grand Theft Auto SA', 'Ação', 'Multiplataforma')
-jogo4 = Jogo('Grand Theft Auto VI', 'Ação', 'Multiplataforma')
+
 lista = [jogo1, jogo2, jogo3, jogo4]
 
 
